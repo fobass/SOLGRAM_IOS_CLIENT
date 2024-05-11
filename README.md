@@ -1,0 +1,2 @@
+<img width="423" alt="Screenshot 2024-05-11 at 8 09 57 PM" src="https://github.com/fobass/SOLGRAM_IOS_CLIENT/assets/20865522/dbd808ae-30e5-4b39-a592-d856cb6060ba">
+<img width="441" alt="Screenshot 2024-05-11 at 8 10 10 PM" src="https://github.com/fobass/SOLGRAM_IOS_CLIENT/assets/20865522/babb8bf4-3d6c-4679-98b3-42fa4311366a">
