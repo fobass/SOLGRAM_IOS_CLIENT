@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "WebSocketManager2.submitOrderToServer(orderText:):TradeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "socket">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WebSocketManager2.init():TradeView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in InstrumentStore.updateInstrumentById(_:):InstrumentVM.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.items.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:SOLGRAMApp.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in closure #2 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in QuoteDetailView.body.getter:QuoteDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(String(format: &quot;%.3f&quot;, store.detail.day_30_change as CVarArg))">
+            </PersistentString>
+            <PersistentString
+               value = "store.detail.day_30_change">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TradeView.bindingQty.getter:TradeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.qty">
+            </PersistentString>
+            <PersistentString
+               value = "bindingQty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Order.orderTypeCaption.getter:Trade.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Side.stringRepresentation(fromRawValue: self.side)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Side.stringRepresentation(fromRawValue:):Trade.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Side(rawValue: rawValue)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TradeView.submit():TradeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bindingQty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in InstrumentStore.fetch():InstrumentVM.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "JSONDecoder().decode([Instrument].self, from: data)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0E66FE87-8300-4BC8-9B1F-0FDF240C4CDE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09542ADC-4E47-4A1D-8A38-E09C5723CA06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Instrument/QuoteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58ACC34E-BB2A-4065-A9F3-76B8434F3139"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C4022FF-A329-4F34-8571-558722B51CB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C4022FF-A329-4F34-8571-558722B51CB8 - 726eca834219346b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SOLGRAM.InstrumentStore.fetch() -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "7C4022FF-A329-4F34-8571-558722B51CB8 - 726eca834219330c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SOLGRAM.InstrumentStore.fetch() -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40B8BE9F-D2C5-43A6-9307-26B69A6220F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "getInstrumentById(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E245718-C1FB-48AA-9647-5EA447ED6004"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Instrument/QuoteDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB0BF098-3875-46B4-9750-492D80F6A27B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Instrument/QuoteDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6FC64A6-082E-45DE-A457-5127AEF05AFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/WebSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "receiveMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F7DB4A-2FEB-4926-84A6-38C20ECEA659"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "updateStore(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "updateInstrumentById(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - 69566e281af4fd46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.Instrument) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "215">
+               </Location>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - 69566e281af4fd46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.Instrument) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - 4aa52a40f831e041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SOLGRAM.Instrument) -&gt; Swift.Bool in closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.Instrument) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - 13e855d122b4d852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.FeedDataPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - 13e855d122b4d852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.FeedDataPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "374">
+               </Location>
+               <Location
+                  uuid = "349132BC-579F-43E7-8E5B-A609A4B26F40 - e30102d7a651a000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SOLGRAM.Instrument) -&gt; Swift.Bool in closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.FeedDataPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B320F60-9542-400B-A0C5-24589C429FAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Instrument/QuoteDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1540CECA-5CD0-40D1-86DB-02E3870C533E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1540CECA-5CD0-40D1-86DB-02E3870C533E - d18a87453307ec9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TabView&lt;Swift.Int, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt; in SOLGRAM.ContentView.body.getter : some"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1019">
+               </Location>
+               <Location
+                  uuid = "1540CECA-5CD0-40D1-86DB-02E3870C533E - d6b27e291e288472"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TabView&lt;Swift.Int, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt; in SOLGRAM.ContentView.body.getter : some"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "505">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC538E94-92E0-478B-B92F-8362B0B8AFFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA07283B-52D3-4BDF-82DB-F2AA8BE167F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "updateInstrumentById(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35146E40-33AE-4BE2-85C3-215F9E85B462"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "updateStore(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35146E40-33AE-4BE2-85C3-215F9E85B462 - a082e7847beedbed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.InstrumentStore.updateStore(with: Swift.String) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "35146E40-33AE-4BE2-85C3-215F9E85B462 - a082e7847beedbed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.InstrumentStore.updateStore(with: Swift.String) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BE993CA-AA99-4DE7-9D23-2C648E6AFDFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "updateInstrumentById(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5BE993CA-AA99-4DE7-9D23-2C648E6AFDFF - 81c09bab45e4f467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.FeedDataPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "5BE993CA-AA99-4DE7-9D23-2C648E6AFDFF - 13e855d122b4d871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.InstrumentStore.updateInstrumentById(SOLGRAM.FeedDataPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/InstrumentVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6699F3AF-A840-4223-9F88-436A6C737612"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "connect()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9D8D127-A159-472B-832A-3EEDDCA660C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "didReceive(event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E755A51-F83B-4CED-86AC-DC1C1F0DE7D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "start(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14AA6ADE-1EA4-413E-86AB-A59B124713FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "didReceiveHTTP(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14AA6ADE-1EA4-413E-86AB-A59B124713FA - df18e89a22098496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starscream.WSEngine.didReceiveHTTP(event: Starscream.HTTPEvent) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "14AA6ADE-1EA4-413E-86AB-A59B124713FA - df18e89a22098496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starscream.WSEngine.didReceiveHTTP(event: Starscream.HTTPEvent) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "435">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6EEF7F3-346E-4103-A35F-A08F44144A05"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "didForm(event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18A846E9-FE11-48E7-85AE-D6753CCD635C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "didForm(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18A846E9-FE11-48E7-85AE-D6753CCD635C - dd4b648157a7704d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starscream.WSEngine.didForm(event: Starscream.FrameCollector.Event) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "202">
+               </Location>
+               <Location
+                  uuid = "18A846E9-FE11-48E7-85AE-D6753CCD635C - dd4b648157a7704d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starscream.WSEngine.didForm(event: Starscream.FrameCollector.Event) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "437">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9EDD16D-A3B9-4442-BEA5-BF1C248826A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "write(string:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A4320D4-7A3E-48E8-9583-E575E95FD3C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "write(data:opcode:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A4320D4-7A3E-48E8-9583-E575E95FD3C8 - a2d4242cfc357208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starscream.WSEngine.write(data: Foundation.Data, opcode: Starscream.FrameOpCode, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  uuid = "0A4320D4-7A3E-48E8-9583-E575E95FD3C8 - 539bdff328305fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in Starscream.WSEngine.write(data: Foundation.Data, opcode: Starscream.FrameOpCode, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "266">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19C3E426-C44E-431A-B3EC-42D106F2B2C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Engine/WSEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "write(data:opcode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C56D7125-5088-4D2A-9271-E685A187DFD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "write(data:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FBB1A1C-F4D3-4263-8AF7-85FFFFC3BDA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "write(string:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A5672EE-EAAE-4A5D-B245-2763F21A5FD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "write(stringData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66E996EC-1CA7-4517-9322-A3D80FADB891"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "write(ping:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FC41B93-6FE0-46BB-964B-90D6D59D3F70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "write(pong:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29251DC5-F39B-42FE-8494-54137DD6CFBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/SOLGRAM-bjctulgxzmawhldgichtohuhdbnt/SourcePackages/checkouts/Starscream/Sources/Starscream/WebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "write(pong:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE3B9F02-7170-4AE9-9CA7-5853199F736C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Trade/TradeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "507"
+            endingLineNumber = "507"
+            landmarkName = "submit()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE3B9F02-7170-4AE9-9CA7-5853199F736C - f27a6173e3257a84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.TradeView.submit() -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/View/Trade/TradeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "538"
+                  endingLineNumber = "538"
+                  offsetFromSymbolStart = "713">
+               </Location>
+               <Location
+                  uuid = "CE3B9F02-7170-4AE9-9CA7-5853199F736C - f27a6173e3257e85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.TradeView.submit() -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/View/Trade/TradeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "507"
+                  endingLineNumber = "507"
+                  offsetFromSymbolStart = "1397">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5527048-F1CE-46CA-AF16-46CE51125274"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Trade/TradeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "bindingQty"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5EC58B6-8666-4E6E-903D-0BA380B00040"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Trade/TradeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "bindingQty"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/Trade/OrderVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "updateOrderById(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d457fb6f9c0b321a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d457fb6f9c0b321a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d959954ba20c504b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SOLGRAM.Order) -&gt; Swift.Bool in closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d457fb6f9c0b33ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d457fb6f9c0b33ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "802">
+               </Location>
+               <Location
+                  uuid = "585CBBE4-C6FA-4BDF-BC51-FC4842B03897 - d959954ba20c51ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SOLGRAM.Order) -&gt; Swift.Bool in closure #1 @Swift.MainActor () -&gt; () in SOLGRAM.OrderStore.updateOrderById(SOLGRAM.Order) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/ViewModel/Trade/OrderVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "234D8AA1-874E-443E-9D79-97F30B212A3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/Trade/OrderVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6AA8247-04E2-4CE5-B2A2-BECCC1A8D53C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/InstrumentVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "updateStore(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E85BB206-B8E2-4AD9-B156-1AF2464A8730"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/Trade/OrderVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD3346F7-9560-41AB-B14B-6147C8DE52BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Model/Trade/Trade.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "orderTypeCaption"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEBE60DE-0E2E-4202-BF49-4011C0E1A22D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Model/Trade/Trade.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "stringRepresentation(fromRawValue:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C72F470B-ED5C-4F0D-9762-534907665174"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Trade/TradeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A5F20EA-9C75-4798-862E-9448D5021F13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "subscribeDepth(depth:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72230E2C-1B33-4AB3-B999-F3D448B9266A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Model/Trade/Trade.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A2B8AFB-0413-4E3E-8FE9-9EC35C7051A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Model/Trade/Trade.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "7A2B8AFB-0413-4E3E-8FE9-9EC35C7051A8 - 87af80813d9a75ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.UpdatePayload.AnyCodablePayload.init(from: Swift.Decoder) throws -&gt; SOLGRAM.UpdatePayload.AnyCodablePayload"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Model/Trade/Trade.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "1706">
+               </Location>
+               <Location
+                  uuid = "7A2B8AFB-0413-4E3E-8FE9-9EC35C7051A8 - 87af80813d9a752d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.UpdatePayload.AnyCodablePayload.init(from: Swift.Decoder) throws -&gt; SOLGRAM.UpdatePayload.AnyCodablePayload"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Model/Trade/Trade.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "2664">
+               </Location>
+               <Location
+                  uuid = "7A2B8AFB-0413-4E3E-8FE9-9EC35C7051A8 - 87af80813d9a750c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.UpdatePayload.AnyCodablePayload.init(from: Swift.Decoder) throws -&gt; SOLGRAM.UpdatePayload.AnyCodablePayload"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Model/Trade/Trade.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "674">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48D5F678-5C0D-4D01-BEF5-DD77D36F1183"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Model/Trade/Trade.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41C5B504-0315-4CC3-B069-CA6124769F66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/Trade/OrderVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "updateStore(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "683F0BD4-3149-4ABF-AFDC-67833D2CB42C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "connect()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "714EAECD-3904-4807-A21E-8BA8A5AF7B26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "connect()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B234E1C-9DC3-4245-886E-AE9099FC9B4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "subscribeDepth(depth:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B234E1C-9DC3-4245-886E-AE9099FC9B4F - f941ed30b5a3ab20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.TradeSocketManager.subscribeDepth(depth: SOLGRAM.MarketDepthPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "422">
+               </Location>
+               <Location
+                  uuid = "5B234E1C-9DC3-4245-886E-AE9099FC9B4F - afa7c29d37650cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SOLGRAM.TradeSocketManager.subscribeDepth(depth: SOLGRAM.MarketDepthPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C61FBC8-DA06-4D46-808B-2110CE540EAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "submitOrder(orderTicket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC0F54DD-AA5D-4DAA-A1B7-522F83DCDB01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "receiveMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42789743-C6AA-4493-98AC-2CC77657E40D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "receiveMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F26AE5F-51FA-404F-8094-B8844838B127"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/ViewModel/Trade/OrderVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "submitOrder(orderTicket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C90AD7F-8691-4DA5-AF9A-5A915BECC609"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "submitOrder(orderTicket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D3E948C-A56B-4D5F-9619-08A7ADB47A34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "submitOrder(orderTicket:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D3E948C-A56B-4D5F-9619-08A7ADB47A34 - 4c5b3817af07ae2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SOLGRAM.TradeSocketManager.submitOrder(orderTicket: SOLGRAM.OrderTicketPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "2D3E948C-A56B-4D5F-9619-08A7ADB47A34 - 4c5b3817af07ae2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SOLGRAM.TradeSocketManager.submitOrder(orderTicket: SOLGRAM.OrderTicketPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E0EED25-1DCC-499B-89C0-35576134E085"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/Network/TradeSocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "submitOrder(orderTicket:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E0EED25-1DCC-499B-89C0-35576134E085 - c20c037dfbc40747"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.TradeSocketManager.submitOrder(orderTicket: SOLGRAM.OrderTicketPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "679">
+               </Location>
+               <Location
+                  uuid = "1E0EED25-1DCC-499B-89C0-35576134E085 - c20c037dfbc40766"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SOLGRAM.TradeSocketManager.submitOrder(orderTicket: SOLGRAM.OrderTicketPayload) -&gt; ()"
+                  moduleName = "SOLGRAM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernist/Desktop/SOLGRAM_DEV/clients/iOS/SOLGRAM/SOLGRAM/Network/TradeSocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "803">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B516B85-FB1B-455B-AD37-61A698407A22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SOLGRAM/View/Trade/TradeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
+            landmarkName = "submit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
