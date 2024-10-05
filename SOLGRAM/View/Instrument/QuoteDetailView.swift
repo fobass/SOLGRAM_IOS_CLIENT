@@ -77,183 +77,114 @@ struct QuoteDetailView: View {
     var instrument: Instrument
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @ObservedObject var appData: AppData
+    @EnvironmentObject var appData: AppData
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
-                ScrollSlidingTabBar(selection: $selection, tabs: ["Chat", "Info", "Recommendations"])
-                TabView(selection: $selection) {
-                    ScrollView {
-                        VStack{
-                            HStack{
-                                VStack{
-                                    HStack{
-                                        Text(String(format: "%.3f", instrument.last_price))
-                                            .foregroundColor(.green)
-                                            .font(Font.system(size: 24))
-                                        Spacer()
-                                    }
-                                    HStack{
-                                        Text("=$\(String(format: "%.3f", instrument.last_price))")
-                                            .foregroundColor(.orange)
-                                        Text("\(String(format: "%.3f", instrument.change))%")
-                                            .foregroundColor(.green)
-                                        Spacer()
-                                    }
+//                Spacer()
+                        HStack {
+                            HStack(spacing: 15){
+                                HStack{
+                                    Text("24h High")
+                                        .font(.system(size: 12, weight: .medium))
+                                        .foregroundColor(Color.secondary)
+                                    Text("\(String(format: "%.2f", instrumentStore.detail.high_24 as CVarArg))")
+                                        .font(.system(size: 12, weight: .bold))
+                                }
+                                HStack{
+                                    Text("23h Low")
+                                        .font(.system(size: 12, weight: .medium))
+                                        .foregroundColor(Color.secondary)
+                                    Text("\(String(format: "%.2f", instrumentStore.detail.low_24 as CVarArg))")
+                                        .font(.system(size: 12, weight: .bold))
+                                }
+                                HStack{
+                                    Text("Volume")
+                                        .font(.system(size: 12, weight: .medium))
+                                        .foregroundColor(Color.secondary)
+                                    Text("\(String(format: "%.2f", instrumentStore.detail.vol_24 as CVarArg))")
+                                        .foregroundColor(.red)
+                                        .font(.system(size: 12, weight: .bold))
                                 }
                                 Spacer()
                                 
-                                VStack(alignment: .leading){
-                                    Text("24h High")
-                                        .foregroundColor(.orange)
-                                    Text("24h Low")
-                                        .foregroundColor(.orange)
-                                    Text("24h Vol(SOL)")
-                                        .foregroundColor(.orange)
-                                    Text("24h Vol(USDT")
-                                        .foregroundColor(.orange)
-                                }
-                                
-                                VStack(alignment: .leading){
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.high_24 as CVarArg))%")
-                                        .foregroundColor(.green)
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.low_24 as CVarArg))%")
-                                        .foregroundColor(.red)
-                                    Text("12")
-                                        .foregroundColor(.red)
-                                    Text("0.55")
-                                        .foregroundColor(.green)
-                                }
-                                
                             }
-                            .font(Font.system(size: 10))
-                            .padding(2)
+                            .padding(10)
+                            .background(colorScheme == .dark ? Color.gray.opacity(0.5) : Color.gray.opacity(0.05))
+                            .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
                             
-                            ChartView()
-                                .frame(width: 380, height: 400, alignment: .top)
+                           
                             
-                            HStack(spacing: 30){
-                                VStack{
-                                    Text("Today")
-                                        .foregroundColor(.orange)
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.today_change.abbreviated()))%")
-                                        .foregroundColor(.green)
-                                }
-                                VStack{
-                                    Text("7 Days")
-                                        .foregroundColor(.orange)
-                                    Text(instrumentStore.detail.day_7_change.abbreviated())
-                                        .foregroundColor(.green)
-                                }
-                                VStack{
-                                    Text("30 Days")
-                                        .foregroundColor(.orange)
-                                    Text(String(format: "%.2f", instrumentStore.detail.day_30_change))
-
-                                    
-                                        .foregroundColor(.green)
-                                }
-                                VStack{
-                                    Text("90 Days")
-                                        .foregroundColor(.orange)
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.day_90_change as CVarArg))%")
-                                        .foregroundColor(.green)
-                                }
-                                VStack{
-                                    Text("180 Days")
-                                        .foregroundColor(.orange)
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.day_180_change as CVarArg))%")
-                                        .foregroundColor(.green)
-                                }
-                                VStack{
-                                    Text("1 Year")
-                                        .foregroundColor(.orange)
-                                    Text("\(String(format: "%.3f", instrumentStore.detail.year_1_change as CVarArg))%")
-                                        .foregroundColor(.green)
-                                }
+                            Button(action: {
+                                
+                            }) {
+                                Image(systemName: "star")
+                                    .font(Font.system(size: 12))
                             }
-                            .font(Font.system(size: 10))
-                            .padding(2)
+                            .padding(10)
+                            .background(colorScheme == .dark ? Color.gray.opacity(0.5) : Color.gray.opacity(0.05))
+                            .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
                             
-                            MarketDepthView()
                         }
-                        .padding([.trailing, .leading], 10)
-                    }
-                    .tag(0)
+                        VStack{
+                            ChartView(instrumnet_id: instrument.instrument_id).environmentObject(instrumentStore)
+                            
+                        }
+                        .padding(10)
+                        .background(colorScheme == .dark ? Color.gray.opacity(0.5) : Color.gray.opacity(0.05))
+                        .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
+                            
+//                        VStack{
+//                            Spacer()
+//                            HStack{
+//                                
+//                                VStack(alignment: .leading, spacing: 5){
+//                                    Text("24h High")
+//                                        .foregroundColor(.orange)
+//                                    Text("24h Low")
+//                                        .foregroundColor(.orange)
+//                                    Text("24h Vol(SOL)")
+//                                        .foregroundColor(.orange)
+//                                    Text("24h Vol(USDT")
+//                                        .foregroundColor(.orange)
+//                                }
+//                                .padding(5)
+//                                Spacer()
+//                                VStack(alignment: .leading, spacing: 5){
+//                                    Text("\(String(format: "%.2f", instrumentStore.detail.high_24 as CVarArg))")
+//                                        .foregroundColor(.green)
+//                                    Text("\(String(format: "%.2f", instrumentStore.detail.low_24 as CVarArg))")
+//                                        .foregroundColor(.red)
+//                                    Text("\(String(format: "%.2f", instrumentStore.detail.vol_24 as CVarArg))")
+//                                        .foregroundColor(.red)
+//                                    Text("0.55")
+//                                        .foregroundColor(.green)
+//                                }
+//                                .padding(5)
+//                            }
+//                            .padding(20)
+//                            .font(Font.system(size: 11))
+//                        }
+//                        .frame(maxWidth: .infinity, maxHeight: 70)
+//                        Spacer()
                     
-//                    HStack {
-//                        QuoteView()
-//                    }
-//                    .tag(1)
-//                    
-//                    HStack {
-//                        QuoteView()
-//                    }
-//                    .tag(2)
-//                    
-//                    HStack {
-//                        QuoteView()
-//                    }
-//                    .tag(3)
-//                    
-//                    HStack {
-//                        QuoteView()
-//                    }
-//                    .tag(4)
-                    
-                    
-                }
-                .tabViewStyle(.page(indexDisplayMode: .never))
-                .animation(.default, value: selection)
             }
-            
+
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
                     HStack{
-                        Button(action: { print("Pressed") }) {
-                           Image(systemName: "shuffle.circle")
-                        }
-                        .background(.gray.opacity(0.3))
-                        .cornerRadius(5)
-                        
-                        Button(action: { print("Pressed") }) {
-                            Image(systemName: "wallet.pass")
-                        }
-                        .background(.gray.opacity(0.3))
-                        .cornerRadius(5)
-                        
-                        Button(action: { print("Pressed") }) {
-                           Image(systemName: "shuffle.circle")
-                        }
-                        .background(.gray.opacity(0.3))
-                        .cornerRadius(5)
-                        
-                        Button(action: { print("Pressed") }) {
-                            Image(systemName: "wallet.pass")
-                        }
-                        .background(.gray.opacity(0.3))
-                        .cornerRadius(5)
-                    }
-                    Spacer()
-                }
-
-                ToolbarItem(placement: .bottomBar) {
-                    HStack{
+                        Spacer()
                         Button(action: {
-                            selectTradeTab = 1
-                            let orderPad = OrderPad(side: Side.SELL, instrumnet: instrument)
-                            appData.dataForTrade = orderPad
-                            presentationMode.wrappedValue.dismiss()
+                            
                         }) {
-                            Spacer()
-                            Text("SELL")
-                                .font(.custom("", fixedSize: 15))
-                                .padding(5)
-                            Spacer()
+                            Image(systemName: "bell")
+                                .font(Font.system(size: 12))
                         }
-                        .background(.red)
-                        .cornerRadius(5)
+                        .padding(10)
+                        .background(colorScheme == .dark ? Color.gray.opacity(0.5) : Color.gray.opacity(0.05))
+                        .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
                         
                         Button(action: {
                             selectTradeTab = 1
@@ -263,35 +194,82 @@ struct QuoteDetailView: View {
                         }) {
                             Spacer()
                             Text("BUY")
-                                .font(.headline)
-                                .padding(5)
+                                .font(.system(size: 14, weight: .bold))
+                                .foregroundColor(Color.primary)
+                                .padding(10)
                             Spacer()
                         }
                         .background(.green)
-                        .cornerRadius(5)
+                        .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
+                        
+                        Button(action: {
+                            selectTradeTab = 1
+                            let orderPad = OrderPad(side: Side.SELL, instrumnet: instrument)
+                            appData.dataForTrade = orderPad
+                            presentationMode.wrappedValue.dismiss()
+                        }) {
+                            Spacer()
+                            Text("SELL")
+                                .font(.system(size: 14, weight: .bold))
+                                .foregroundColor(Color.primary)
+                                .padding(10)
+                            Spacer()
+                        }
+                       
+                        .background(.red)
+                        .clipShape(RoundedCorner(radius: 10, corners: [.allCorners]))
+                      
                     }
-
+                    .padding(.top, 10)
                 }
-
+                
             }
-
-        }
+    }
         .onAppear(){
             instrumentStore.getInstrumentById(id: instrument.id)
         }
-        .navigationTitle("\(instrument.code)")
-        .navigationBarItems(trailing:
+        .padding([.trailing, .leading], 10)
+        .navigationBarBackButtonHidden()
+        .navigationBarItems(leading:
+            HStack {
                 Button(action: {
-                    print("Navigation bar item action")
+                    presentationMode.wrappedValue.dismiss()
                 }) {
-                    Image(systemName: "bell.circle.fill")
-                        .font(Font.system(.title))
+                    Image(systemName: "chevron.left")
+                }
+
+                
+                HStack(spacing: 8) {
+                    Image(systemName: "bitcoinsign.circle")
+                        .font(.system(size: 24, weight: .bold))
+                    
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("\(String(instrument.code))")
+                            .font(.system(size: 12, weight: .bold))
+                        
+                        Text("Vol \(String(instrument.volume))")
+                            .font(.system(size: 9, weight: .medium))
+                    }
+                }
+                
+                Spacer()
+            }
+        )
+
+
+        .navigationBarItems(trailing:
+                VStack(alignment: .trailing){
+                    Text("\(String(format: "%.3f", instrument.last_price))")
+                        .font(.system(size: 12, weight: .bold))
+                    Text("\(String(instrument.change))")
+                       .font(.system(size: 10, weight: .medium))
                 }
             )
     }
+    
 }
 
 
 #Preview {
-    QuoteDetailView(selectTradeTab: .constant(0), instrument: Instrument.init(instrument_id: 8, code: "ADA", symbol: "Cordana", last_price: 50, prev_price: 45, change: 1.2), appData: AppData()).environmentObject(InstrumentStore())
+    QuoteDetailView(selectTradeTab: .constant(0), instrument: Instrument.init(instrument_id: 8, code: "ADA", symbol: "Cordana", last_price: 50, prev_price: 45, change: 1.2, volume: 0, spark: [])).environmentObject(InstrumentStore()).environmentObject(AppData())
 }

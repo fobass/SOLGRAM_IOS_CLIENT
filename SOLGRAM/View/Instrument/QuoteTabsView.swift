@@ -82,6 +82,7 @@ public struct ScrollSlidingTabBar: View {
                     }
                 }
                 .coordinateSpace(name: containerSpace)
+                .padding(0)
             }
             .onChange(of: selection) { newValue in
                 withAnimation {
@@ -200,47 +201,46 @@ extension ScrollSlidingTabBar {
     }
 }
 
-struct QuoteTabsView: View {
-    @Binding var selectTradeTab: Int
-    @State private var selection: Int = 0
-    @EnvironmentObject var instrumentStore: InstrumentStore
-    @ObservedObject var appData: AppData
-    var body: some View {
-        VStack(alignment: .leading) {
-            ScrollSlidingTabBar(selection: $selection,tabs: ["Hot", "Gainers", "Losers", "Favorits", "Vol 24"])
-            
-            TabView(selection: $selection) {
-                QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
-                    .tag(0)
-                
-                HStack {
-                    QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
-                }
-                .tag(1)
-                
-                HStack {
-                    QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
-                }
-                .tag(2)
-                
-            
-                
-                
-            }
-            .tabViewStyle(.page(indexDisplayMode: .never))
-            .animation(.default, value: selection)
-            
-        }
-        
+//struct QuoteTabsView: View {
+//    @Binding var selectTradeTab: Int
+//    @State private var selection: Int = 0
+//    @EnvironmentObject var instrumentStore: InstrumentStore
+//    @ObservedObject var appData: AppData
+//    var body: some View {
+//        VStack(alignment: .leading) {
+//            ScrollSlidingTabBar(selection: $selection,tabs: ["Hot", "Gainers", "Losers", "Favorits", "Vol 24"])
+//            
+//            TabView(selection: $selection) {
+//                QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
+//                    .tag(0)
+//                
+//                HStack {
+//                    QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
+//                }
+//                .tag(1)
+//                
+//                HStack {
+//                    QuoteView(selectTradeTab: $selectTradeTab, appData: appData).environmentObject(instrumentStore)
+//                }
+//                .tag(2)
+//                
+//            
+//                
+//                
+//            }
+//            .tabViewStyle(.page(indexDisplayMode: .never))
+//            .animation(.default, value: selection)
+//            
+//        }
+//        
+//
+//    }
+//    
+//    
+//}
 
-    }
-    
-    
-}
 
+//#Preview {
+//    QuoteTabsView(selectTradeTab: .constant(0), appData: AppData()).environmentObject(InstrumentStore())
 
-#Preview {
-    QuoteTabsView(selectTradeTab: .constant(0), appData: AppData()).environmentObject(InstrumentStore())
-   
-
-}
+//}

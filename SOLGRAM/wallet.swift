@@ -182,7 +182,7 @@ struct RpcError: Codable, Error {
 
 
 
-struct ContentView: View {
+struct ContentViewWallet: View {
     var body: some View {
         Button(action: {
             callRPC()
@@ -205,7 +205,7 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentViewWallet_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

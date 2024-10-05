@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DepthView: View {
-    @ObservedObject var store: OrderStore
+    @EnvironmentObject var store: OrderStore
     var instrument_id: Int
     var body: some View {
         VStack {
@@ -17,43 +17,53 @@ struct DepthView: View {
                 Spacer()
                 Text("Amount(SOL)")
             }
-            .font(Font.system(size: 10))
-            
+            .font(.system(size: 8))
+            .foregroundColor(Color.secondary)
+//            Spacer()
             VStack {
-                ForEach(store.depths.filter { $0.buy_depth > 0 }) { depth in
+                ForEach(store.depths.buy_depth.values.sorted(by: { $0.level < $1.level })) { depth in
                     DepthRow(depth: depth, side: Side.BUY)
                 }
             }
             Divider()
             VStack {
-                ForEach(store.depths.filter { $0.sell_depth > 0 }) { depth in
+                ForEach(store.depths.sell_depth.values.sorted(by: { $0.level < $1.level })) { depth in
                     DepthRow(depth: depth, side: Side.SELL)
                 }
             }
-        }
-        .padding()
-        .onAppear(){
-            store.subscribeDepth(depth: MarketDepthPayload(_type: .MarketDepth, payload: self.instrument_id))
-        }
-    }
-}
-
-struct DepthRow: View {
-    let depth: Depth
-    let side: Side
-    var body: some View {
-        HStack {
-            Text(String(format: "%.2f", depth.price))
-                .foregroundColor(side == .BUY ? .green : .red )
+            
             Spacer()
-            Text(String(format: "%.2f", depth.depth))
-//                .foregroundColor(depth.depth > 0 ? .green : .red)
+          
+        }
+        
+        .onAppear(){
+            store.subscribeDepth(instrument_id: self.instrument_id)
+        }
+        .onDisappear() {
+            store.unsubscribeDepth(instrument_id: self.instrument_id)
         }
         
     }
 }
 
 
+struct DepthRow: View {
+    let depth: DepthSide
+    let side: Side
+    var body: some View {
+        HStack {
+            Text(String(format: "%.2f", depth.price))
+                .foregroundColor(side == .BUY ? .green : .red )
+            Spacer()
+            Text(String(format: "%.2f", depth.quantity))
+//                .foregroundColor(depth.depth > 0 ? .green : .red)
+        }
+        .font(.system(size: 10, weight: .medium))
+        
+    }
+}
+
+
 #Preview {
-    DepthView(store: OrderStore(), instrument_id: 495).environmentObject(OrderStore())
+    DepthView(instrument_id: 495).environmentObject(OrderStore())
 }

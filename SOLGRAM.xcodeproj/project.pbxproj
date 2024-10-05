@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		111B1FAF2BEFACFD004C7FFF /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B1FAE2BEFACFD004C7FFF /* wallet.swift */; };
+		11570B942C9F2DE800EB1637 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11570B932C9F2DE800EB1637 /* PortfolioView.swift */; };
+		11570B972CA6A89300EB1637 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11570B962CA6A89300EB1637 /* Extensions.swift */; };
+		11570B992CA74A4800EB1637 /* TradeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11570B982CA74A4800EB1637 /* TradeView2.swift */; };
 		1180D7BC2B5F8CD700C3781E /* SOLGRAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180D7BB2B5F8CD700C3781E /* SOLGRAMApp.swift */; };
 		1180D7BE2B5F8CD700C3781E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180D7BD2B5F8CD700C3781E /* ContentView.swift */; };
 		1180D7C02B5F8CD900C3781E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1180D7BF2B5F8CD900C3781E /* Assets.xcassets */; };
@@ -35,6 +38,18 @@
 		11A0800D2B664CEE00153D77 /* TradeSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0800C2B664CEE00153D77 /* TradeSocketManager.swift */; };
 		11A0800F2B66ED9200153D77 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0800E2B66ED9200153D77 /* SideMenuView.swift */; };
 		11A080112B6C245800153D77 /* DepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A080102B6C245700153D77 /* DepthView.swift */; };
+		11A37CF92C9488FD007ADCAA /* DepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A37CF82C9488FC007ADCAA /* DepositView.swift */; };
+		11AA3C2E2C80EF2800000CF5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C2D2C80EF2800000CF5 /* WelcomeView.swift */; };
+		11AA3C302C80F34800000CF5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C2F2C80F34800000CF5 /* RegisterView.swift */; };
+		11AA3C322C80F60D00000CF5 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C312C80F60D00000CF5 /* UserVM.swift */; };
+		11AA3C352C80F65300000CF5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C342C80F65300000CF5 /* User.swift */; };
+		11AA3C372C8A26AC00000CF5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C362C8A26AC00000CF5 /* LoginView.swift */; };
+		11AA3C392C8B66B900000CF5 /* AppDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C382C8B66B900000CF5 /* AppDataVM.swift */; };
+		11AA3C3B2C8B66E000000CF5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C3A2C8B66E000000CF5 /* AppData.swift */; };
+		11AA3C3E2C8B6E0F00000CF5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C3D2C8B6E0F00000CF5 /* HomeView.swift */; };
+		11AA3C402C8B6F2800000CF5 /* UserAssetsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AA3C3F2C8B6F2800000CF5 /* UserAssetsInfo.swift */; };
+		11AB2FFE2CAE8EBF008E2A05 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 11AB2FFD2CAE8EBF008E2A05 /* DGCharts */; };
+		11AD23152C56495600FF6192 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AD23142C56495600FF6192 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +69,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11AB30032CAEE09A008E2A05 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		111B1FAE2BEFACFD004C7FFF /* wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wallet.swift; sourceTree = "<group>"; };
+		11570B932C9F2DE800EB1637 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		11570B962CA6A89300EB1637 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		11570B982CA74A4800EB1637 /* TradeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView2.swift; sourceTree = "<group>"; };
 		1180D7B82B5F8CD700C3781E /* SOLGRAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLGRAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1180D7BB2B5F8CD700C3781E /* SOLGRAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLGRAMApp.swift; sourceTree = "<group>"; };
 		1180D7BD2B5F8CD700C3781E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +115,18 @@
 		11A0800C2B664CEE00153D77 /* TradeSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeSocketManager.swift; sourceTree = "<group>"; };
 		11A0800E2B66ED9200153D77 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		11A080102B6C245700153D77 /* DepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthView.swift; sourceTree = "<group>"; };
+		11A37CF82C9488FC007ADCAA /* DepositView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositView.swift; sourceTree = "<group>"; };
+		11AA3C2A2C80862A00000CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11AA3C2D2C80EF2800000CF5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		11AA3C2F2C80F34800000CF5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		11AA3C312C80F60D00000CF5 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		11AA3C342C80F65300000CF5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		11AA3C362C8A26AC00000CF5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		11AA3C382C8B66B900000CF5 /* AppDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataVM.swift; sourceTree = "<group>"; };
+		11AA3C3A2C8B66E000000CF5 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		11AA3C3D2C8B6E0F00000CF5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11AA3C3F2C8B6F2800000CF5 /* UserAssetsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAssetsInfo.swift; sourceTree = "<group>"; };
+		11AD23142C56495600FF6192 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AB2FFE2CAE8EBF008E2A05 /* DGCharts in Frameworks */,
 				11A07FE92B61AF9C00153D77 /* SwiftUICharts in Frameworks */,
 				11A07FFC2B62A4A600153D77 /* InputStepper in Frameworks */,
 				11A0800B2B6551D300153D77 /* Starscream in Frameworks */,
@@ -114,6 +158,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11570B922C9F2D0400EB1637 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				11570B932C9F2DE800EB1637 /* PortfolioView.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		11570B952CA6A86F00EB1637 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				11570B962CA6A89300EB1637 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		1180D7AF2B5F8CD700C3781E = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +181,7 @@
 				1180D7CC2B5F8CD900C3781E /* SOLGRAMTests */,
 				1180D7D62B5F8CD900C3781E /* SOLGRAMUITests */,
 				1180D7B92B5F8CD700C3781E /* Products */,
+				11AB30012CAEE087008E2A05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +198,9 @@
 		1180D7BA2B5F8CD700C3781E /* SOLGRAM */ = {
 			isa = PBXGroup;
 			children = (
+				11570B952CA6A86F00EB1637 /* Helper */,
+				11AA3C2A2C80862A00000CF5 /* Info.plist */,
+				11AD23132C56490700FF6192 /* Resources */,
 				111B1FAE2BEFACFD004C7FFF /* wallet.swift */,
 				11A080062B63CA1000153D77 /* Network */,
 				11A07FFD2B63B98700153D77 /* Utilities */,
@@ -180,6 +244,9 @@
 		1180D7E62B5F9B5100C3781E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				11570B922C9F2D0400EB1637 /* Portfolio */,
+				11AA3C3C2C8B6DFA00000CF5 /* Home */,
+				11AA3C2C2C80EEFF00000CF5 /* User */,
 				11A07FF52B629E6A00153D77 /* Trade */,
 				11A07FE42B6187B500153D77 /* Widgets */,
 				1180D7E92B5F9C9F00C3781E /* Instrument */,
@@ -190,8 +257,10 @@
 		1180D7E72B5F9B5C00C3781E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				11AA3C2B2C80EEEE00000CF5 /* User */,
 				11A080032B63BFA400153D77 /* Trade */,
 				11A07FE22B5FFDB500153D77 /* InstrumentVM.swift */,
+				11AA3C382C8B66B900000CF5 /* AppDataVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,9 +268,11 @@
 		1180D7E82B5F9B6800C3781E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				11AA3C332C80F64000000CF5 /* User */,
 				11A080002B63BAD900153D77 /* Trade */,
 				11A07FF22B627BA100153D77 /* Chart */,
 				1180D7EC2B5F9CC600C3781E /* Instrument */,
+				11AA3C3A2C8B66E000000CF5 /* AppData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,6 +319,7 @@
 			children = (
 				11A07FF82B629E9400153D77 /* TradeView.swift */,
 				11A080102B6C245700153D77 /* DepthView.swift */,
+				11570B982CA74A4800EB1637 /* TradeView2.swift */,
 			);
 			path = Trade;
 			sourceTree = "<group>";
@@ -285,6 +357,57 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		11AA3C2B2C80EEEE00000CF5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				11AA3C312C80F60D00000CF5 /* UserVM.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		11AA3C2C2C80EEFF00000CF5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				11AA3C2D2C80EF2800000CF5 /* WelcomeView.swift */,
+				11AA3C2F2C80F34800000CF5 /* RegisterView.swift */,
+				11AA3C362C8A26AC00000CF5 /* LoginView.swift */,
+				11AA3C3F2C8B6F2800000CF5 /* UserAssetsInfo.swift */,
+				11A37CF82C9488FC007ADCAA /* DepositView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		11AA3C332C80F64000000CF5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				11AA3C342C80F65300000CF5 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		11AA3C3C2C8B6DFA00000CF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11AA3C3D2C8B6E0F00000CF5 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11AB30012CAEE087008E2A05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11AD23132C56490700FF6192 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11AD23142C56495600FF6192 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +418,7 @@
 				1180D7B42B5F8CD700C3781E /* Sources */,
 				1180D7B52B5F8CD700C3781E /* Frameworks */,
 				1180D7B62B5F8CD700C3781E /* Resources */,
+				11AB30032CAEE09A008E2A05 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +429,7 @@
 				11A07FE82B61AF9C00153D77 /* SwiftUICharts */,
 				11A07FFB2B62A4A600153D77 /* InputStepper */,
 				11A0800A2B6551D300153D77 /* Starscream */,
+				11AB2FFD2CAE8EBF008E2A05 /* DGCharts */,
 			);
 			productName = SOLGRAM;
 			productReference = 1180D7B82B5F8CD700C3781E /* SOLGRAM.app */;
@@ -382,6 +507,7 @@
 				11A07FE72B61AF9C00153D77 /* XCRemoteSwiftPackageReference "ChartView" */,
 				11A07FFA2B62A4A600153D77 /* XCRemoteSwiftPackageReference "InputStepper" */,
 				11A080092B6551D300153D77 /* XCRemoteSwiftPackageReference "Starscream" */,
+				11AB2FFC2CAE8AE1008E2A05 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 1180D7B92B5F8CD700C3781E /* Products */;
 			projectDirPath = "";
@@ -399,6 +525,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AD23152C56495600FF6192 /* Colors.xcassets in Resources */,
 				1180D7C42B5F8CD900C3781E /* Preview Assets.xcassets in Resources */,
 				1180D7C02B5F8CD900C3781E /* Assets.xcassets in Resources */,
 			);
@@ -426,15 +553,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A07FEF2B62542400153D77 /* QuoteDetailView.swift in Sources */,
+				11AA3C3E2C8B6E0F00000CF5 /* HomeView.swift in Sources */,
 				11A07FE32B5FFDB500153D77 /* InstrumentVM.swift in Sources */,
 				11A080022B63BB8800153D77 /* Trade.swift in Sources */,
+				11570B942C9F2DE800EB1637 /* PortfolioView.swift in Sources */,
+				11AA3C2E2C80EF2800000CF5 /* WelcomeView.swift in Sources */,
+				11AA3C322C80F60D00000CF5 /* UserVM.swift in Sources */,
 				11A080082B63CA3700153D77 /* WebSocketManager.swift in Sources */,
 				11A07FF92B629E9400153D77 /* TradeView.swift in Sources */,
 				11A080052B63BFC200153D77 /* OrderVM.swift in Sources */,
+				11AA3C3B2C8B66E000000CF5 /* AppData.swift in Sources */,
 				11A07FED2B61B6BB00153D77 /* QuoteTabsView.swift in Sources */,
 				11A07FF12B627B9300153D77 /* ChartView.swift in Sources */,
 				1180D7EE2B5F9CE100C3781E /* InstrumentModel.swift in Sources */,
 				11A0800D2B664CEE00153D77 /* TradeSocketManager.swift in Sources */,
+				11AA3C402C8B6F2800000CF5 /* UserAssetsInfo.swift in Sources */,
+				11AA3C302C80F34800000CF5 /* RegisterView.swift in Sources */,
+				11AA3C392C8B66B900000CF5 /* AppDataVM.swift in Sources */,
+				11AA3C372C8A26AC00000CF5 /* LoginView.swift in Sources */,
 				1180D7BE2B5F8CD700C3781E /* ContentView.swift in Sources */,
 				1180D7EB2B5F9CBA00C3781E /* QuoteView.swift in Sources */,
 				11A07FFF2B63B9A600153D77 /* Extentions.swift in Sources */,
@@ -442,9 +578,13 @@
 				11A07FF42B627BB600153D77 /* ChartModel.swift in Sources */,
 				11A07FEB2B61B60E00153D77 /* NewsTickerView.swift in Sources */,
 				111B1FAF2BEFACFD004C7FFF /* wallet.swift in Sources */,
+				11AA3C352C80F65300000CF5 /* User.swift in Sources */,
+				11570B972CA6A89300EB1637 /* Extensions.swift in Sources */,
 				11A0800F2B66ED9200153D77 /* SideMenuView.swift in Sources */,
 				11A080112B6C245800153D77 /* DepthView.swift in Sources */,
+				11570B992CA74A4800EB1637 /* TradeView2.swift in Sources */,
 				1180D7BC2B5F8CD700C3781E /* SOLGRAMApp.swift in Sources */,
+				11A37CF92C9488FD007ADCAA /* DepositView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +741,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SOLGRAM/SOLGRAM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SOLGRAM/Preview Content\"";
@@ -608,6 +750,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOLGRAM/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -625,6 +768,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = solgram.inc.SOLGRAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -639,6 +783,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SOLGRAM/SOLGRAM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SOLGRAM/Preview Content\"";
@@ -646,6 +792,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOLGRAM/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -663,6 +810,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = solgram.inc.SOLGRAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -827,6 +975,14 @@
 				minimumVersion = 4.0.6;
 			};
 		};
+		11AB2FFC2CAE8AE1008E2A05 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -844,6 +1000,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 11A080092B6551D300153D77 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
+		};
+		11AB2FFD2CAE8EBF008E2A05 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11AB2FFC2CAE8AE1008E2A05 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

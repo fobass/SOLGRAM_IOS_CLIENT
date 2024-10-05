@@ -9,13 +9,13 @@ import Foundation
 import Combine
 
 final class OrderStore: ObservableObject {
+    
     @Published var orders: [Order] = []
     private var cancellables: Set<AnyCancellable> = []
-    @Published var depths: [Depth] = []
+    @Published var depths: Depths = Depths.init()
     @Published var webSocketManager = TradeSocketManager()
+    private var instrument_id: Int = -1
     init() {
-        
-                
         webSocketManager.receivedMessagePublisher
             .sink { [weak self] message in
                 self?.updateStore(with: message)
@@ -45,21 +45,35 @@ final class OrderStore: ObservableObject {
         if let jsonData = message.data(using: .utf8) {
             do {
                 let decoder = JSONDecoder()
-                if let depthValue = try? decoder.decode(MarketDepthUpdatePayload.self, from: jsonData) {
+                if let depthValue = try? decoder.decode(MarketDepthResponse.self, from: jsonData) {
                     updateDepth(depth: depthValue.payload)
-                } else if let orderUpdateValue = try? decoder.decode(OrderUpdatePayload.self, from: jsonData) {
-                    updateOrderById(orderUpdateValue.payload)
+                } else if let orderValue = try? decoder.decode(MessagePayload<Order>.self, from: jsonData) {
+                    updateOrderById(orderValue.payload)
+                } else if let ordersValue = try? decoder.decode(OrdersPayload.self, from: jsonData) {
+                    updateOrdersById(ordersValue.payload)
                 }
-                print(jsonData)
-            } catch {
-                print("Error decoding JSON: \(error)")
+
             }
         } else {
             print("Invalid JSON string")
         }
-        print(message)
+//        print(message)
     }
-
+    func updateOrdersById(_ updatedOrders: [Order]) {
+        DispatchQueue.main.async {
+            for order in updatedOrders {
+                if let index = self.orders.firstIndex(where: { $0.ticket_no == order.ticket_no }) {
+                   if (order.status_code == 1) {
+                       self.orders.remove(at: index)
+                   } else {
+                       self.orders[index] = order
+                   }
+               } else {
+                   self.orders.append(order)
+               }
+            }
+        }
+    }
     
     func updateOrderById(_ updatedOrder: Order) {
         DispatchQueue.main.async {
@@ -75,27 +89,102 @@ final class OrderStore: ObservableObject {
         }
     }
     
-    func submitOrder(orderTicket: OrderTicketPayload){
-        webSocketManager.submitOrder(orderTicket: orderTicket)
+    func submitOrder(order: Order){
+        let orderPayload = MessagePayload<Order>(_type: .NewOrder, payload: order)
+        self.updateOrderById(order)
+        webSocketManager.submitOrder(orderTicket: orderPayload)
     }
     
-    func updateDepth(depth: [Depth]) {
+    func cancelOrder(cancelTicket: CancelTicket) {
+        let cancelPayload = MessagePayload<CancelTicket>(_type: .CancelOrder, payload: cancelTicket)
+        webSocketManager.cancelOrder(orderTicket: cancelPayload)
+    }
+    
+    func updateDepth(depth: [DepthEntry]) {
         DispatchQueue.main.async {
-            self.depths.append(contentsOf: depth)
-//            for newDepth in depth {
-//                if let existingDepthIndex = self.depths.firstIndex(where: { $0.level == newDepth.level }) {
-//                    // Update existing depth
-//                    self.depths[existingDepthIndex] = newDepth
-//                } else {
-//                    // Append new depth
-//                    self.depths.append(newDepth)
-//                }
-//            }
+            for newDepth in depth {
+                let side = Side.fromInt(newDepth.side)
+                let depthSide = DepthSide(level: newDepth.level, price: newDepth.price, quantity: newDepth.quantity, side: newDepth.side, order_id: newDepth.order_id)
+                
+                // Check the action type and update depth accordingly
+                switch newDepth.action {
+                case "insert":
+                    if side == .BUY {
+                        self.depths.buy_depth[newDepth.order_id] = depthSide
+                    } else if side == .SELL {
+                        self.depths.sell_depth[newDepth.order_id] = depthSide
+                    }
+                case "update":
+                    if side == .BUY {
+                        if let _ = self.depths.buy_depth[newDepth.order_id] {
+                            self.depths.buy_depth[newDepth.order_id] = depthSide
+                        } else {
+//                            print("Level \(newDepth.order_id) not found for update in BUY depth.")
+                        }
+                    } else if side == .SELL {
+                        if let _ = self.depths.sell_depth[newDepth.order_id] {
+                            self.depths.sell_depth[newDepth.order_id] = depthSide
+                        } else {
+//                            print("Level \(newDepth.level) not found for update in SELL depth.")
+                        }
+                    }
+                case "delete":
+                    if side == .BUY {
+                        
+                        if let existingLevel = self.depths.buy_depth.first(where: { $0.value.order_id == newDepth.order_id }) {
+                            // If the new quantity is smaller than the existing quantity, subtract it from the existing quantity
+                            if newDepth.quantity < existingLevel.value.quantity {
+                                self.depths.buy_depth[existingLevel.key]?.quantity -= newDepth.quantity
+//                                print("Updated buy depth at price \(newDepth.price) with new quantity \(self.depths.buy_depth[existingLevel.key]?.quantity ?? 0.0)")
+                            } else {
+                                // If the new quantity is equal or greater, remove the depth entry
+                                self.depths.buy_depth.removeValue(forKey: existingLevel.key)
+//                                print("Deleted buy depth at price \(newDepth.price) and quantity \(newDepth.quantity)")
+                            }
+                        }
+
+                        
+                    } else if side == .SELL {
+                        if let existingLevel = self.depths.sell_depth.first(where: { $0.value.order_id == newDepth.order_id }) {
+                            // If the new quantity is smaller than the existing quantity, subtract it from the existing quantity
+                            if newDepth.quantity < existingLevel.value.quantity {
+                                self.depths.sell_depth[existingLevel.key]?.quantity -= newDepth.quantity
+//                                print("Updated buy depth at price \(newDepth.price) with new quantity \(self.depths.sell_depth[existingLevel.key]?.quantity ?? 0.0)")
+                            } else {
+                                // If the new quantity is equal or greater, remove the depth entry
+                                self.depths.sell_depth.removeValue(forKey: existingLevel.key)
+//                                print("Deleted buy depth at price \(newDepth.price) and quantity \(newDepth.quantity)")
+                            }
+                        }
+                    }
+                default:
+                    print("Unknown action: \(newDepth.action)")
+                }
+            }
+//            {"_type":"MarketDepth","payload":[{"action":"insert","level":1,"price":43.0,"quantity":40.0,"side":1}]}
+//            {"_type":"MarketDepth","payload":{"action":"delete","level":0,"price":43.0,"quantity":0.0,"side":1}}
         }
     }
 
     
-    func subscribeDepth(depth: MarketDepthPayload){
-//        webSocketManager.subscribeDepth(depth: depth)
+    func subscribeDepth(instrument_id: Int){
+        self.instrument_id = instrument_id
+//        self.depths.instrument_id = instrument_id
+        let depthPayload = DepthPayload(subscribe: true, instrument_id: instrument_id)
+        let messagePayload = MessagePayload<DepthPayload>(_type: .MarketDepth, payload: depthPayload)
+        webSocketManager.subscribeDepth(depth: messagePayload)
+    }
+    
+    func unsubscribeDepth(instrument_id: Int){
+        self.instrument_id = -1
+        let depthPayload = DepthPayload(subscribe: false, instrument_id: instrument_id)
+        let messagePayload = MessagePayload<DepthPayload>(_type: .MarketDepth, payload: depthPayload)
+        webSocketManager.subscribeDepth(depth: messagePayload)
+    }
+    
+    func loadOrders(userId: Int){
+        print("userId \(userId)")
+        let ordersPayload = MessagePayload<Int>(_type: .Orders, payload: userId)
+        webSocketManager.loadOrders(userId: ordersPayload)
     }
 }

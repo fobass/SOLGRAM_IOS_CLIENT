@@ -10,12 +10,10 @@ import Combine
 
 class WebSocketManager: ObservableObject {
     private var webSocketTask: URLSessionWebSocketTask!
-    
-    // Publisher for received messages
     let receivedMessagePublisher = PassthroughSubject<String, Never>()
-    
+    var isConnectd: Bool = false
     init() {
-        let url = URL(string: "ws://127.0.0.1:1092")!
+        let url = URL(string: "ws://" + AppData.shared.ipAddress + ":1092")!
         let urlSession = URLSession(configuration: .default)
         self.webSocketTask = urlSession.webSocketTask(with: url)
         
@@ -23,9 +21,11 @@ class WebSocketManager: ObservableObject {
     }
     
     func connect() {
-        self.webSocketTask.resume()
-        
-        self.receiveMessages()
+        if (!isConnectd) {
+            self.webSocketTask.resume()
+            self.receiveMessages()
+            self.isConnectd = true
+        }
     }
     
     func receiveMessages() {
@@ -37,25 +37,17 @@ class WebSocketManager: ObservableObject {
                 switch message {
                 case .data(let data):
                     if let receivedMessage = String(data: data, encoding: .utf8) {
-                        print("Received message: \(receivedMessage)")
-                        
-                        // Publish the received message
+//                        print("Received message: \(receivedMessage)")
                         self.receivedMessagePublisher.send(receivedMessage)
-                        
-                        // Handle the received message (e.g., append to messages array)
                     }
                 case .string(let text):
-                    print("Received message: \(text)")
-                    
-                    // Publish the received message
-                    self.receivedMessagePublisher.send(text)
-                    
-                    // Handle the received message (e.g., append to messages array)
+//                    print("Received message: \(text)")
+                    DispatchQueue.main.async {
+                        self.receivedMessagePublisher.send(text)
+                    }
                 @unknown default:
                     fatalError()
                 }
-                
-                // Continue to receive messages
                 self.receiveMessages()
                 
             case .failure(let error):

@@ -11,7 +11,8 @@ import SwiftUI
 struct SOLGRAMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(appData: AppData())
+            ContentView().environmentObject(AppData()).environmentObject(UserStore()).environmentObject(InstrumentStore()).environmentObject(OrderStore())
+//            RegisterView(store: UserStore())
         }
     }
 }
